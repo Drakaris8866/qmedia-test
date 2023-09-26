@@ -1,12 +1,10 @@
-import React from "react";
-
 import "./App.css";
-import { FileUpload } from "./components/FileUpload/FileUpload";
+import { Main } from "./components/Pages/Main";
 
 function App() {
   return (
     <div className="App">
-      <FileUpload></FileUpload>
+      <Main></Main>
     </div>
   );
 }
